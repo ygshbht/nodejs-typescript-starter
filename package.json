@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.ts"
+    "dev": "npx ts-node src/index.ts",
+    "dev:watch": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
